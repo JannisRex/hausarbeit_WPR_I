@@ -1,0 +1,29 @@
+%% !TeX program = pdflatex
+%% !TeX TXS-program:bibliography = txs:///bibtex8
+\documentclass{hausarbeit-jura}
+\usepackage{blindtext}
+
+\begin{document}
+%%% Vorspann mit Titel, Sachverhalt und den Verzeichnissen
+\title{Hausarbeit}
+\subtitle{Wirtschaftsprivatrecht I}
+\author{Jannis Rex\\Helmsand 3\\25764 Wesselburen}
+\matrikelnummer{22026040}
+\semester[1. Fachsemester]{Wintersemester 2020/2021}
+\prof{Prof.\,Dr. Warns}
+\date{15. Februar 2016}
+\maketitle
+
+\tableofcontents %Inhaltsverzeichnis
+\bibliography{hausarbeit-demo}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Ein erstes Kapitel}\label{chap:ErstesKapitel}
+\TODO{insane todo hier!}
+
+\section{Abschnitt}
+\blindtext[4]
+
+Eine erste Fußnote\footnote{Dies ist eine Fußnote mit Zitat \cite[348, 349]{hau98}.}
+
+
+\end{document}
