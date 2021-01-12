@@ -1,6 +1,6 @@
 \documentclass{hausarbeit-jura}
 \usepackage{blindtext}
-
+\counterwithout{footnote}{chapter} % Fußnoten zählen über Chapter hinaus
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Vorspann mit Titel, Sachverhalt und den Verzeichnissen
@@ -30,8 +30,11 @@
 % Schadensersatzanspruch nach § 280, da § 286 nicht gegeben, nicht zulässig
 \input{pages/280.tex}
 
-% Bindugn an Angebot nach § 145
+% Bindung an Angebot nach § 145
 \input{pages/320.tex}
+
+% Umdeutung nach § 140
+\input{pages/140.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                 K gegen F                                 %
